@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className={styles.socials}>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>Twitter</a>
+          <a href="" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>Twitter</a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>LinkedIn</a>
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>GitHub</a>
         </div>
