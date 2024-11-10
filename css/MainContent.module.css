@@ -1,0 +1,121 @@
+/* MainContent.module.css */
+
+/* Global Styles */
+.mainContent {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, goldenrod, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .heroText h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .heroText p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  /* About Section */
+  .about {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+  }
+  
+  .about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Features Section */
+  .features {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .featureCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* Feature Card Styles */
+  .featureCard {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Initially offset */
+    animation: fadeInUp 1s forwards; /* Apply animation */
+    transition: transform 0.5s ease; /* Smooth hover effect */
+    animation-delay: 0.5s; /* Delay the animation */
+  }
+  .featureCard h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Fade In & Slide Up Animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Staggered Animation Delays */
+  .featureCard:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .featureCard:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .featureCard:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  
+  /* Hover effect to lift the card */
+  .featureCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .featureCards {
+      flex-direction: row;
+    }
+  }
+  

@@ -1,0 +1,42 @@
+/* AboutContent.module.css */
+
+/* About Section */
+.aboutContent {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .aboutContent h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .aboutContent p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 1.5rem;
+  }
+  
+  
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .aboutContent {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
