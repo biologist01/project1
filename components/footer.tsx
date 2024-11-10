@@ -17,9 +17,9 @@ const Footer: React.FC = () => {
         </div>
 
         <div className={styles.socials}>
-          <a href="" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>Twitter</a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>LinkedIn</a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>GitHub</a>
+          <a href="https://vercel.com/fatimas-projects-f0392711" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>Vercel</a>
+          <a href="www.linkedin.com/in/fatima-aamir-shaikh-3aa3bb313" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>LinkedIn</a>
+          <a href="https://github.com/biologist01" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>GitHub</a>
         </div>
 
         <p className={styles.copyright}>© 2024 My Portfolio. All rights reserved.</p>
