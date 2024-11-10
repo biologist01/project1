@@ -13,7 +13,6 @@ const Footer: React.FC = () => {
         <div className={styles.links}>
           <Link href="/about" className={styles.link}>About</Link>
           <Link href="/contact" className={styles.link}>Contact</Link>
-          <Link href="/privacy-policy" className={styles.link}>Privacy Policy</Link>
         </div>
 
         <div className={styles.socials}>
