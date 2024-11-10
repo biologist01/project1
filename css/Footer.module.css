@@ -1,7 +1,7 @@
 /* Footer.module.css */
 
 .footer {
-    background-color: #333;
+    background-color: rgb(65, 51, 51);
     color: #f1f1f1;
     padding: 2rem 0;
     text-align: center;
@@ -21,7 +21,7 @@
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ff7e5f;
+    color: goldenrod;
   }
   
   .logo a {
@@ -43,7 +43,7 @@
   }
   
   .link:hover {
-    color: #ff7e5f;
+    color: goldenrod;
   }
   
   /* Social Icons */
@@ -59,7 +59,7 @@
   }
   
   .socialIcon:hover {
-    color: #ff7e5f;
+    color: goldenrod;
   }
   
   /* Copyright Text */
